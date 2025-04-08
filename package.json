@@ -1,0 +1,38 @@
+{
+  "name": "maze-pathfinder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive visualization of maze generation and pathfinding algorithms",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "clean": "rimraf .next"
+  },
+  "keywords": ["maze", "pathfinding", "visualization", "algorithm", "react"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "framer-motion": "10.16.4",
+    "next": "14.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "6.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.9.4",
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.2.17",
+    "eslint": "8.54.0",
+    "eslint-config-next": "14.0.3",
+    "prettier": "3.1.0",
+    "rimraf": "5.0.5",
+    "typescript": "5.3.2"
+  }
+}
